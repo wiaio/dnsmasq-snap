@@ -6,8 +6,8 @@ description: |
   to be lightweight and have a small footprint, suitable for resource
   constrained routers and firewalls
 
-grade: stable
-confinement: strict
+grade: devel
+confinement: devmode
 
 apps:
   dnsmasq:
