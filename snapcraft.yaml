@@ -1,10 +1,11 @@
 name: dnsmasq-escoand
-version: 2.77snap1
+version: 2.77snap2
 summary: Dnsmasq provides network infrastructure for small networks
 description: |
   DNS, DHCP, router advertisement and network boot. It is designed
   to be lightweight and have a small footprint, suitable for resource
   constrained routers and firewalls
+icon: icon.png
 
 grade: stable
 confinement: strict
