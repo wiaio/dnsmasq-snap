@@ -1,5 +1,5 @@
 name: dnsmasq-escoand
-version: 2.76snap6
+version: 2.77snap1
 summary: Dnsmasq provides network infrastructure for small networks
 description: |
   DNS, DHCP, router advertisement and network boot. It is designed
@@ -19,8 +19,8 @@ apps:
 parts:
   dnsmasq:
     plugin: make
-    source: https://github.com/lool/dnsmasq.git
-    source-tag: v2.76
+    source: git://thekelleys.org.uk/dnsmasq.git
+    source-tag: v2.77
     organize:
       usr/local/sbin/dnsmasq: bin/dnsmasq
     prime:
