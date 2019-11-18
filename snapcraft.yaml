@@ -15,7 +15,7 @@ apps:
     command: dnsmasq -k -7 $SNAP_DATA/,*.conf -x $SNAP_COMMON/dnsmasq.pid --user= --group=
     daemon: simple
     restart-condition: always
-    plugs: [network, network-bind]
+    plugs: [network, network-bind, network-control, network-observe, network-setup-observe]
 
 parts:
   dnsmasq:
